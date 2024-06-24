@@ -1,0 +1,29 @@
+body {}
+body,table,td,input,select {font-family:arial,sans-serif; color:#222222; font-size:12px;}
+.tm {margin-top:1em; margin-bottom:0;}
+table,td {padding:0;}
+a:link,a:active,a:visited {color:#3333FF; text-decoration:none;}
+a:hover {text-decoration:underline;}
+.d0,.d1,.d2,.d3,.s0,.s1,.s2,.s3 {border: solid 0 #fff; text-align:center; margin: 0pt; width:24pt;}
+.d0,.d1,.d2,.d3 {font-size:16pt; font-family:lucida handwriting,comic sans ms,cursive; color:#777777;}
+.d0,.s0 {background-color: transparent;}
+.d1,.s1,.c1 {background-color: #FFBFBF;}
+.d2,.s2,.c2 {background-color: #FF7F7F;}
+.d3,.s3,.c3 {background-color: #FF3F3F;}
+.s0,.s1,.s2,.s3 {font-size:18pt; font-family:times,serif;}
+.c0,.c1,.c2,.c3 {width:24pt; height:24pt; vertical-align:middle; text-align:center;}
+.c0,.c1,.c2,.c3,.t {border-collapse:collapse;}
+
+/* The CSS code in this document are copyright. Infringers of copyright will be prosecuted. */
+
+@media (min-width:950px) and (min-height:720px) { /* One step up from default */
+	body,table,td,input,select {font-size:13px;}
+}
+
+@media (min-width:1100px) and (min-height:820px) { /* Two steps up from default */
+	body,table,td,input,select {font-size:14px;}
+}
+
+@media (min-width:1250px) and (min-height:920px) { /* Three steps up from default */
+	body,table,td,input,select {font-size:15px;}
+}
